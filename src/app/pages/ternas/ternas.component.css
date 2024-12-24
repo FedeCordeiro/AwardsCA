@@ -1,0 +1,51 @@
+#ternas {
+  background-image: url("../../../assets/img/fondos/fondo17.jpeg");
+  font-family: "Rubik", sans-serif !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+  padding-top: 50px;
+  padding-bottom: 50px; 
+  color: white; 
+}
+
+h1 {
+    font-weight: bold;
+    color: #00ff00;
+    padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.617);
+  background-color: rgba(255, 255, 255, 0.685);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-5px) scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.card-title {
+text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #010101;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 992px) {
+  #ternas {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1rem;
+  }
+}

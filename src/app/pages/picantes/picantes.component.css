@@ -1,0 +1,74 @@
+#picantes {
+  background-image: url('../../../assets/img/fondos/fondo15.jpeg');
+  font-family: "Rubik", sans-serif !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+h2 {
+  color: white;
+}
+
+.streamer-card {
+  transition: transform 0.3s ease; /* Transición suave */
+}
+
+.streamer-card:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 105% */
+}
+
+img {
+  margin-bottom: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(100%); /* Aplica escala de grises por defecto */
+  transition: filter 0.3s ease; /* Transición suave para el filtro */
+}
+
+img:hover {
+  filter: grayscale(0%); /* Elimina la escala de grises al pasar el mouse */
+}
+
+.btn {
+  color: #00ff00;
+  border: 2px solid #00ff00;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px white;
+  color: black;
+  background-color: #00ff00;
+}
+
+.btn-outline-success2 {
+  color: black;
+  background-color: #00ff00;
+}
+
+.btn-outline-success2:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.card-text {
+ color: white;
+}
+
+.card-title {
+  color: #00ff00;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+
+  #picantes {
+    height: 600px;
+  }
+}

@@ -1,0 +1,37 @@
+#about {
+    padding-top: 150px;
+    padding-bottom: 40px;
+    background-image: url('../../../assets/img/fondos/fondo16.jpeg');
+    font-family: "Rubik", sans-serif !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.container-fluid {
+    color: white;
+    font-size: 20px;
+}
+
+.container-text {
+    background-color: rgba(0, 0, 0, 0.654);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+    /* Estilos para pantallas grandes */
+    #about {
+      height: 700px;
+    }
+
+    .container-fluid {
+        width: 75%;
+    }
+  }

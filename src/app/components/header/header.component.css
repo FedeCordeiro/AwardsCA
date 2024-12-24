@@ -1,0 +1,19 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.471);
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.684) !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 22px;
+    transition: box-shadow 0.3s, color 0.3s;
+    text-shadow: none; 
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    text-shadow: 0 0 10px #00ff00; 
+    color: #00ff00; 
+}
