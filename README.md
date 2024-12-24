@@ -1,23 +1,19 @@
-# Coscu Army Awards
+<a name="readme-top"></a>
 
-Este proyecto es una aplicación web interactiva para los **Coscu Army Awards**, donde los seguidores de **Coscu** conocer a los ganadores de distintas categorías. La aplicación ha sido desarrollada utilizando **Angular**, **JavaScript** y **Bootstrap** para una experiencia responsiva y dinámica.
+# Coscu Army Awards - WebSite
+Los Coscu Army Awards son una gala de premiación para los mejores streamers y youtubers de Argentina y Sudamérica. El evento fue creado por el streamer argentino Martín Pérez Disalvo "Coscu" y se realiza desde 2018.  
+**Site Original** - [https://caawards.com.ar/](https://caawards.com.ar/)
 
-## Descripción
+# Descripcion
 
-La aplicación permite a los usuarios mostrar los resultados de los premios y proporciona una interfaz atractiva y fácil de usar. 
+Este proyecto es una aplicación web interactiva para los **Coscu Army Awards**, donde los seguidores de **Coscu** pueden conocer a los ganadores de distintas categorías. La aplicación ha sido desarrollada utilizando **Angular**, **JavaScript** y **Bootstrap** para una experiencia responsiva y dinámica.
 
-El proyecto está desplegado en **Vercel** para garantizar un rendimiento excelente y accesibilidad.
+## 🛠️ Stack Dev
+[![My Skills](https://skillicons.dev/icons?i=angular,js,html,css,bootstrap)](https://skillicons.dev)
 
-## Tecnologías Utilizadas
+- **Angular**: Para la estructura de la aplicación frontend.
+- **JavaScript**: Para las funcionalidades interactivas.
+- **Bootstrap**: Para la creación de una interfaz responsiva y moderna.
+- **Vercel**: Para el despliegue de la aplicación en la web.
 
-- **Angular** (Version 17.3.7) - Para la estructura y lógica del frontend de la aplicación.
-- **JavaScript** - Para implementar las funcionalidades interactivas de la aplicación.
-- **Bootstrap** - Para diseñar una interfaz de usuario responsiva y moderna.
-
-## Instalación
-
-Para correr este proyecto localmente en tu máquina, sigue estos pasos:
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/coscu-army-awards.git
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
