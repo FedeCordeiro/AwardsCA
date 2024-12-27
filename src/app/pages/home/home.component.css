@@ -62,8 +62,16 @@ img {
   }
 
   img {
-    margin-right: 70px;
+    margin-right: 20px;
+    width: 260px;
+    height: 100px;
   }
+
+  svg {
+  width: 250px;
+  height: 200px;
+  margin-right: 15px;
+}
 
   @keyframes slide {
     0% {
